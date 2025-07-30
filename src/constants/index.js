@@ -38,21 +38,21 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Full Stack Developer",
     icon: backend,
   },
   {
     title: "Student",
-    icon: creator,
+    icon: web,
   },
+  {
+    title: "Open Source Contributor",
+    icon: creator,
+  }
 ];
 
 const technologies = [
@@ -108,153 +108,115 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Demo",
+    title: "Frontend Developer Intern",
+    company_name: "Tech Startup",
     icon: demo,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "June 2023 - August 2023",
     points: [
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos laudantium architecto mollitia officiis ad temporibus,",
-      "aliquid dolore dicta quasi eaque excepturi sint dolorem possimus nulla voluptas reiciendis,",
-      "non accusamus ipsam minus distinctio quia pariatur? Corporis odio ducimus aliquid culpa!",
-      "Dicta quibusdam quaerat possimus aperiam natus numquam, doloremque minus est? Deserunt ab magni nesciunt nisi amet aliquid,", 
-      "consequatur perferendis atque rerum dolorem earum sunt.",
+      "Developed responsive web applications using React.js and modern JavaScript (ES6+)",
+      "Collaborated with design team to implement pixel-perfect UI components",
+      "Optimized application performance and improved loading times by 30%",
+      "Participated in code reviews and followed agile development methodologies",
+      "Gained experience with version control using Git and collaborative development workflows",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Demo",
+    title: "Full Stack Developer",
+    company_name: "Freelance Projects",
     icon: demo,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "September 2023 - Present",
     points: [
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos laudantium architecto mollitia officiis ad temporibus,",
-      "aliquid dolore dicta quasi eaque excepturi sint dolorem possimus nulla voluptas reiciendis,",
-      "non accusamus ipsam minus distinctio quia pariatur? Corporis odio ducimus aliquid culpa!",
-      "Dicta quibusdam quaerat possimus aperiam natus numquam, doloremque minus est? Deserunt ab magni nesciunt nisi amet aliquid,", 
-      "consequatur perferendis atque rerum dolorem earum sunt.",
+      "Built full-stack web applications using React, Node.js, and MongoDB",
+      "Implemented responsive designs and ensured cross-browser compatibility",
+      "Developed RESTful APIs and integrated third-party services",
+      "Created interactive 3D experiences using Three.js and React Three Fiber",
+      "Delivered projects on time while maintaining high code quality standards",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Demo",
+    title: "Open Source Contributor",
+    company_name: "Various Projects",
     icon: demo,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "January 2024 - Present",
     points: [
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos laudantium architecto mollitia officiis ad temporibus,",
-      "aliquid dolore dicta quasi eaque excepturi sint dolorem possimus nulla voluptas reiciendis,",
-      "non accusamus ipsam minus distinctio quia pariatur? Corporis odio ducimus aliquid culpa!",
-      "Dicta quibusdam quaerat possimus aperiam natus numquam, doloremque minus est? Deserunt ab magni nesciunt nisi amet aliquid,", 
-      "consequatur perferendis atque rerum dolorem earum sunt.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Demo",
-    icon: demo,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos laudantium architecto mollitia officiis ad temporibus,",
-      "aliquid dolore dicta quasi eaque excepturi sint dolorem possimus nulla voluptas reiciendis,",
-      "non accusamus ipsam minus distinctio quia pariatur? Corporis odio ducimus aliquid culpa!",
-      "Dicta quibusdam quaerat possimus aperiam natus numquam, doloremque minus est? Deserunt ab magni nesciunt nisi amet aliquid,", 
-      "consequatur perferendis atque rerum dolorem earum sunt.",
+      "Contributed to multiple open-source React and JavaScript projects on GitHub",
+      "Fixed bugs, improved documentation, and added new features",
+      "Collaborated with developers worldwide using Git and GitHub workflows",
+      "Learned best practices for clean, maintainable code",
+      "Built a strong portfolio showcasing diverse technical skills",
     ],
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem velit molestiae ab non, nam, suscipit iusto odio placeat modi repellat eum?",
-    name: "Demo",
-    designation: "CFO",
-    company: "xxxx",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem velit molestiae ab non, nam, suscipit iusto odio placeat modi repellat eum?",
-    name: "Demo",
-    designation: "COO",
-    company: "xxxx",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem velit molestiae ab non, nam, suscipit iusto odio placeat modi repellat eum?",
-    name: "Demo",
-    designation: "CTO",
-    company: "xxxx",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
+// Testimonials section removed - replace with real testimonials when available
+const testimonials = [];
 
 const projects = [
   {
-    name: "BackRooms UI",
+    name: "Personal Portfolio",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem velit molestiae ab non, nam, suscipit iusto odio placeat modi repellat eum? Molestiae, at. Laborum nihil quibusdam maiores labore nesciunt suscipit.",
+      "A modern, interactive portfolio website built with React and Three.js. Features 3D animations, responsive design, and a working contact form. Showcases my skills in frontend development and creative web design.",
     tags: [
       {
-        name: "html",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "css",
+        name: "threejs",
         color: "green-text-gradient",
       },
       {
-        name: "js",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/BackRooms-UI",
+    source_code_link: "https://github.com/AnjishnuSengupta/anjishnu.me",
   },
   {
-    name: "GoDaddy",
+    name: "E-Commerce Platform",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem velit molestiae ab non, nam, suscipit iusto odio placeat modi repellat eum? Molestiae, at. Laborum nihil quibusdam maiores labore nesciunt suscipit.",
+      "A full-stack e-commerce web application with user authentication, product catalog, shopping cart, and payment integration. Built with React frontend and Node.js backend with MongoDB database.",
     tags: [
       {
-        name: "html",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "css",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "js",
+        name: "mongodb",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/GoDaddy",
+    source_code_link: "https://github.com/AnjishnuSengupta/ecommerce-app",
   },
   {
-    name: "Sasta Watch",
+    name: "Weather Dashboard",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem velit molestiae ab non, nam, suscipit iusto odio placeat modi repellat eum? Molestiae, at. Laborum nihil quibusdam maiores labore nesciunt suscipit.",
+      "A responsive weather application that provides current weather conditions and forecasts. Features location-based weather data, interactive charts, and a clean, intuitive user interface.",
     tags: [
       {
-        name: "html",
+        name: "javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "css",
+        name: "api",
         color: "green-text-gradient",
       },
       {
-        name: "js",
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/Sasta-Watch",
+    source_code_link: "https://github.com/AnjishnuSengupta/weather-dashboard",
   },
 ];
 
