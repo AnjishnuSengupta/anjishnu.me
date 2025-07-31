@@ -47,11 +47,19 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a passionate software developer with experience in modern web technologies including 
-        JavaScript, React, Node.js, and Three.js. I enjoy creating interactive and visually 
-        appealing web applications that provide great user experiences. I'm constantly learning 
-        new technologies and best practices to build efficient, scalable, and innovative solutions 
-        that solve real-world problems.
+        I'm a passionate software engineering student and innovative full-stack developer with deep expertise in 
+        building cutting-edge web applications and intelligent AI-powered solutions. I specialize in React, TypeScript, 
+        Python, and Node.js, with extensive experience in advanced technologies including machine learning, web scraping, 
+        automation systems, and seamless API integrations. 
+        
+        From creating immersive anime streaming platforms with real-time data synchronization to developing 
+        sophisticated AI assistants with natural language processing, I thrive on solving complex technical challenges 
+        and building solutions that deliver exceptional user experiences. My portfolio spans diverse domains - 
+        from relationship-focused journaling applications to comprehensive career guidance platforms.
+        
+        I'm constantly pushing the boundaries of what's possible with modern web technologies, actively contributing 
+        to open-source projects, and continuously learning emerging frameworks and tools. My goal is to become a 
+        versatile software engineer who bridges the gap between innovative technology and meaningful real-world applications.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

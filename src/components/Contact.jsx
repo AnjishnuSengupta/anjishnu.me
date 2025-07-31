@@ -74,6 +74,12 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
+        
+        <p className='mt-4 text-secondary text-[16px] leading-[24px]'>
+          Ready to collaborate on your next project? Whether you're looking for a full-stack developer, 
+          AI integration specialist, or need help with automation solutions, I'd love to hear from you. 
+          Let's discuss how we can bring your ideas to life!
+        </p>
 
         <form
           ref={formRef}
@@ -87,7 +93,7 @@ const Contact = () => {
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your good name?"
+              placeholder="What's your name?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>

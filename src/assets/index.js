@@ -24,9 +24,9 @@ import flutter from "./tech/flutter.png";
 
 import demo from "./company/demo.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import nyanime from "./nyanime.png";
+import Dayli from "./Dayli.png";
+import Jarvis from "./Jarvis.png";
 
 export {
   logo,
@@ -50,7 +50,7 @@ export {
   python,
   flutter,
   demo,
-  carrent,
-  jobit,
-  tripguide,
+  nyanime,
+  Dayli,
+  Jarvis,
 };

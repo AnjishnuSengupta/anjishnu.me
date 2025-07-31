@@ -133,9 +133,9 @@ import {
   nodejs,
   git,
   demo,
-  carrent,
-  jobit,
-  tripguide,
+  nyanime,
+  Dayli,
+  Jarvis,
   threejs,
 } from "../assets";
 
@@ -329,7 +329,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: nyanime,
     source_code_link: "https://github.com/BackRooms-UI",
   },
   {
@@ -350,7 +350,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: Dayli,
     source_code_link: "https://github.com/GoDaddy",
   },
   {
@@ -371,7 +371,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: Jarvis,
     source_code_link: "https://github.com/Sasta-Watch",
   },
 ];
