@@ -25,7 +25,7 @@ import flutter from "./tech/flutter.png";
 import demo from "./company/demo.png";
 
 import nyanime from "./nyanime.png";
-import Dayli from "./Dayli.png";
+import nycli from "./nycli.png";
 import Jarvis from "./Jarvis.png";
 
 export {
@@ -51,6 +51,6 @@ export {
   flutter,
   demo,
   nyanime,
-  Dayli,
+  nycli,
   Jarvis,
 };

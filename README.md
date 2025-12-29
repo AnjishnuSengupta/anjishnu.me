@@ -134,7 +134,7 @@ import {
   git,
   demo,
   nyanime,
-  Dayli,
+  ny-cli,
   Jarvis,
   threejs,
 } from "../assets";
@@ -330,7 +330,7 @@ const projects = [
       },
     ],
     image: nyanime,
-    source_code_link: "https://github.com/BackRooms-UI",
+    source_code_link: "https://github.com/AnjishnuSengupta/BackRooms-UI",
   },
   {
     name: "GoDaddy",
@@ -350,8 +350,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: Dayli,
-    source_code_link: "https://github.com/GoDaddy",
+    image: nycli,
+    source_code_link: "https://github.com/AnjishnuSengupta/ny-cli",
   },
   {
     name: "Sasta Watch",
@@ -372,7 +372,7 @@ const projects = [
       },
     ],
     image: Jarvis,
-    source_code_link: "https://github.com/Sasta-Watch",
+    source_code_link: "https://github.com/AnjishnuSengupta/Sasta-Watch",
   },
 ];
 

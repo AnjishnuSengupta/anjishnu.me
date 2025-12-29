@@ -16,7 +16,7 @@ import {
   git,
   demo,
   nyanime,
-  Dayli,
+  nycli,
   Jarvis,
   threejs,
 } from "../assets";
@@ -50,7 +50,7 @@ const services = [
     icon: creator,
   },
   {
-    title: "Software Engineering Student",
+    title: "Computer Commerce Student",
     icon: web,
   }
 ];
@@ -104,8 +104,8 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Engineering Student",
-    company_name: "University/College",
+    title: "Computer Commerce Student",
+    company_name: "St. Xavier's Collegiate School, Kolkata",
     icon: demo,
     iconBg: "#383E56",
     date: "2023 - Present",
@@ -126,7 +126,7 @@ const experiences = [
     date: "2024 - Present",
     points: [
       "Architected and developed NyAnime - a sophisticated anime streaming platform with real-time web scraping, advanced search algorithms, and responsive design",
-      "Built Dayli - an innovative couples journaling application featuring MongoDB backend, real-time synchronization, and intuitive React Native UI components",
+      "Built ny-cli - a powerful command-line interface tool for streamlined anime browsing and streaming directly from the terminal",
       "Engineered Jarvis - an intelligent AI desktop assistant with advanced voice recognition, multi-platform AI integration, and automated task management",
       "Implemented pixel-perfect responsive designs using modern frameworks including React, TypeScript, Tailwind CSS, and Next.js",
       "Integrated and optimized multiple database solutions including MongoDB, Firebase, and PostgreSQL for high-performance scalable applications",
@@ -180,7 +180,7 @@ const projects = [
     source_code_link: "https://github.com/AnjishnuSengupta/nyanime",
   },
   {
-    name: "Dayli",
+    name: "ny-cli",
     description:
       "An innovative couples journaling application designed to strengthen relationships through shared digital experiences. Built with modern web technologies featuring real-time synchronization, interactive mood tracking with analytics, secure data encryption, and intuitive UI/UX design. Includes features like memory timelines, shared photo galleries, and relationship milestone tracking.",
     tags: [
@@ -201,8 +201,8 @@ const projects = [
         color: "orange-text-gradient",
       },
     ],
-    image: Dayli,
-    source_code_link: "https://github.com/AnjishnuSengupta/Dayli",
+    image: nycli,
+    source_code_link: "https://github.com/AnjishnuSengupta/ny-cli",
   },
   {
     name: "Jarvis AI Assistant",
